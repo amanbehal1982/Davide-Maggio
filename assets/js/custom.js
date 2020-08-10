@@ -11,13 +11,122 @@ function stickyMenu() {
 }
 
 
+var slideVideo = document.getElementById("slide-video");
+
+function playPause() {
+    if (slideVideo.paused)
+        slideVideo.play();
+    else
+        slideVideo.pause();
+}
+
+
 $('.foto-slider').slick({
-    slidesToShow: 4,
+    slidesToShow: 11,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     prevArrow: $('.foto-prev'),
-    nextArrow: $('.foto-next')
+    nextArrow: $('.foto-next'),
+    responsive: [{
+            breakpoint: 5200,
+            settings: {
+                slidesToShow: 8
+            }
+        },
+        {
+            breakpoint: 4000,
+            settings: {
+                slidesToShow: 7
+            }
+        },
+        {
+            breakpoint: 3400,
+            settings: {
+                slidesToShow: 5
+            }
+        },
+        {
+            breakpoint: 2500,
+            settings: {
+                slidesToShow: 4
+            }
+        }
+    ]
+});
+
+
+$('.pagelle-slider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    prevArrow: $('.pagelle-prev'),
+    nextArrow: $('.pagelle-next')
+});
+
+
+$('.serie-tv-large-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    fade: true,
+    prevArrow: $('.serie-tv-prev'),
+    nextArrow: $('.serie-tv-next'),
+    asNavFor: '.serie-small-slider'
+});
+$('.serie-small-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    asNavFor: '.serie-tv-large-slider',
+    arrows: false,
+    focusOnSelect: true
+});
+
+
+$('.video-main-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    fade: true,
+    prevArrow: $('.video-prev'),
+    nextArrow: $('.video-next'),
+    asNavFor: '.video-small-slider'
+});
+$('.video-small-slider').slick({
+    slidesToShow: 15,
+    slidesToScroll: 1,
+    asNavFor: '.video-main-slider',
+    centerMode: true,
+    arrows: false,
+    focusOnSelect: true,
+    responsive: [{
+            breakpoint: 5200,
+            settings: {
+                slidesToShow: 13
+            }
+        },
+        {
+            breakpoint: 4000,
+            settings: {
+                slidesToShow: 9
+            }
+        },
+        {
+            breakpoint: 3400,
+            settings: {
+                slidesToShow: 7
+            }
+        },
+        {
+            breakpoint: 2500,
+            settings: {
+                slidesToShow: 5
+            }
+        }
+    ]
 });
 
 
