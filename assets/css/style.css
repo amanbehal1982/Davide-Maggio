@@ -588,7 +588,7 @@ header.top-bar span.top-logo img {
     letter-spacing: -0.6px;
 }
 
-.speciale-slider-heading h2 img {
+.speciale-slider-heading h2 img.rai-1-img {
     margin-left: 20px;
 }
 
@@ -1038,6 +1038,9 @@ ul.trending-detail-info li img {
     font-size: 32px;
     letter-spacing: -2px;
     margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .recensioni-inner-content p {
@@ -1128,7 +1131,6 @@ ul.trending-detail-info li img {
     font-size: 32px;
     color: #fff;
     letter-spacing: -2px;
-    text-transform: uppercase;
     height: 115.2px;
     overflow: hidden;
     margin-top: 10px;
@@ -1174,6 +1176,8 @@ ul.trending-detail-info li img {
     margin-top: 15px;
     color: #404042;
     margin-bottom: 25px;
+    font-size: 32px;
+    letter-spacing: -2px;
 }
 
 .foto-slide-inner .foto-slide-flip-content p {
@@ -1998,4 +2002,745 @@ ul.footer-menu li a:hover:after {
 
 .pagelle-slide-inner .pagelle-rating-box h2 span {
     font-size: 100px;
+}
+
+@media (max-width: 1899.98px) {
+    .foto-slide-inner {
+        width: 442px;
+    }
+}
+
+@media (max-width: 1849.98px) {
+    .container {
+        max-width: 1650px;
+    }
+    .main-nav .navbar ul.navbar-nav li {
+        margin-right: 40px;
+    }
+    .main-nav .navbar ul.navbar-nav li a {
+        font-size: 24px;
+    }
+    .foto-slide-inner {
+        width: 392px;
+        height: 496px;
+    }
+    .foto-slide-inner .foto-slide-content h2 {
+        font-size: 30px;
+        height: 108px;
+    }
+    .foto-slide-inner .foto-slide-flip-content h2 {
+        font-size: 30px;
+    }
+    .foto-slide-inner .foto-slide-flip-content p {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+    .video-small-slider .video-small-slide-inner {
+        width: 280px;
+    }
+    .video-small-slider .video-small-slide-inner span.play-icon {
+        top: 137px;
+    }
+    .video-small-slider .video-small-slide-inner h2 {
+        font-size: 20px;
+        height: 72px;
+    }
+    .pagelle-slide-inner {
+        width: 780px;
+        height: 850px;
+    }
+    .recensioni-inner-content h2 {
+        font-size: 30px;
+    }
+    .recensioni-inner-content p {
+        font-size: 25px;
+        height: 97.5px;
+    }
+    .large-news-box .news-content-part .home-news-heading {
+        font-size: 35px;
+        height: 84px;
+    }
+    .serie-tv-large-section .large-slide-inner h2 {
+        font-size: 34px;
+        height: 122.4px;
+    }
+    .pagelle-slide-inner .pagelle-text-area h4 {
+        font-size: 32px;
+    }
+    .pagelle-slide-inner .pagelle-special-info h2 {
+        font-size: 65px;
+    }
+    .pagelle-slide-inner .pagelle-rating-box h2 span {
+        font-size: 90px;
+    }
+    .guida-content-wrapper .guida-main-row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .guida-content-wrapper .guida-content-box {
+        width: 25%;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .guida-content-wrapper .guida-content-inner {
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1649.98px) {
+    .container {
+        max-width: 1440px;
+    }
+    .top-hero-banner {
+        background-size: cover;
+        height: 786px;
+    }
+    .banner-inner-text h1 {
+        font-size: 55px;
+        width: 60%;
+    }
+    .section-sub-heading {
+        font-size: 40px;
+    }
+    .section-sub-heading .red-sanremo-img {
+        width: auto;
+        height: 55px;
+    }
+    .section-sub-heading:before {
+        top: 23px;
+    }
+    .main-nav .navbar ul.navbar-nav li {
+        margin-right: 35px;
+    }
+    .main-nav .navbar ul.navbar-nav li a {
+        font-size: 20px;
+    }
+    .trending-inner-box h2 {
+        font-size: 35px;
+    }
+    .trending-inner-box ul.tending-list li {
+        margin-right: 120px;
+    }
+    .nav-tabs.speciale-tabs .nav-item {
+        font-size: 22px;
+        padding-left: 40px;
+    }
+    .trending-right-part h6 {
+        font-size: 25px;
+        margin-right: 70px;
+    }
+    .trending-right-part h6 img.trending-now {
+        width: auto;
+        height: 30px;
+    }
+    .breaking-news-inner h2 {
+        font-size: 35px;
+    }
+    .speciale-slider-heading h2 {
+        font-size: 25px;
+    }
+    .speciale-slider-heading h2 img.rai-1-img {
+        height: 50px;
+        width: auto;
+    }
+    .link1-large-slider .slide .slide-caption h2 {
+        font-size: 32px;
+    }
+    .link1-small-slider .slide .slide-caption h2 {
+        font-size: 18px;
+        height: 43.2px;
+    }
+    .large-news-box .news-content-part .home-news-heading {
+        font-size: 32px;
+        height: 84px;
+    }
+    .news-content-part .news-date-info,
+    .related-news-content .release-date-info,
+    .news-content-part .news-text-info,
+    .news-content-part .news-text-info p {
+        font-size: 22px;
+    }
+    .news-content-part .home-news-heading,
+    .related-news-content h2 {
+        font-size: 28px;
+        height: 73px;
+    }
+    .trending-inner-content h2 {
+        font-size: 24px;
+    }
+    ul.trending-detail-info li {
+        font-size: 16px;
+    }
+    .trending-large-inner .trending-inner-content h2 {
+        font-size: 30px;
+        height: 72px;
+    }
+    .trending-large-inner ul.trending-detail-info li {
+        font-size: 19px;
+    }
+    .recensioni-inner-content h2 {
+        font-size: 28px;
+    }
+    .recensioni-inner-content p {
+        font-size: 22px;
+        height: 86px;
+    }
+    .foto-slide-inner {
+        width: 340px;
+        height: 440px;
+    }
+    .foto-slide-inner .foto-slide-content h2 {
+        font-size: 28px;
+        height: 101px;
+    }
+    .foto-slide-inner .foto-slide-flip-content h2 {
+        font-size: 28px;
+    }
+    .foto-slide-inner .foto-slide-flip-content p {
+        font-size: 16px;
+    }
+    .fiction-content-inner .fiction-content-info {
+        max-width: 280px;
+        font-size: 20px;
+    }
+    .fiction-content-inner .fiction-content-info p {
+        font-size: 20px;
+    }
+    .fiction-content-inner .fiction-content-image {
+        margin-right: 30px;
+    }
+    .serie-tv-large-section .large-slide-inner h2 {
+        font-size: 30px;
+        height: 108px;
+    }
+    .serie-tv-large-section .large-slide-inner .person-name {
+        font-size: 22px;
+    }
+    .serie-small-slide-inner .serie-small-slide-content h2 {
+        font-size: 18px;
+        height: 44px;
+    }
+    .video-new-wrapper {
+        background-position: bottom -300px left;
+    }
+    .video-main-slider .slide.video-slide .video-slide-frame {
+        max-width: 1120px;
+        height: 650px;
+    }
+    .video-small-slider .video-small-slide-inner {
+        width: 238px;
+    }
+    .video-small-slider .video-small-slide-inner h2 {
+        font-size: 16px;
+        height: 58px;
+    }
+    .video-small-slider .video-small-slide-inner span.play-icon {
+        top: 115px;
+    }
+    .video-new-wrapper .video-small-slider-outer {
+        margin-top: -120px;
+    }
+    .pagelle-slide-inner {
+        width: 675px;
+        height: 735px;
+    }
+    .pagelle-slide-inner .pagelle-text-area h4 {
+        font-size: 30px;
+    }
+    .pagelle-slide-inner .pagelle-special-info {
+        width: 380px;
+        height: 220px;
+    }
+    .pagelle-slide-inner .pagelle-special-info h2 {
+        font-size: 55px;
+    }
+    .pagelle-slide-inner .pagelle-rating-box h2 {
+        font-size: 50px;
+    }
+    .pagelle-slide-inner .pagelle-rating-box h2 span {
+        font-size: 80px;
+    }
+    .pay-block-outer .pay-block-image {
+        margin-right: 30px;
+    }
+    .pay-block-outer .pay-block-content {
+        font-size: 20px;
+    }
+    .pay-block-outer .pay-block-content p {
+        font-size: 20px;
+    }
+    .guida-content-wrapper .guida-content-inner {
+        width: 330px;
+        height: 338px;
+    }
+    .footer-address-box .footer-address-left p,
+    .footer-address-box .footer-address-right p {
+        font-size: 20px;
+    }
+    ul.footer-menu li {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1439.98px) {
+    .container {
+        max-width: 1140px;
+    }
+    header.top-bar ul.top-social-list li img,
+    header.top-bar ul.top-link-list li img {
+        width: auto;
+        height: 20px;
+    }
+    header.top-bar span.top-logo .dm-top-logo {
+        height: 76px;
+        width: auto;
+    }
+    .banner-inner-text h1 {
+        font-size: 50px;
+    }
+    .main-nav .navbar ul.navbar-nav li {
+        margin-right: 15px;
+    }
+    .main-nav .navbar ul.navbar-nav li a {
+        font-size: 18px;
+    }
+    .navbar-brand .dm-menu-logo {
+        width: auto;
+        height: 38px;
+    }
+    .main-nav .navbar form button.search-btn {
+        padding: 8px 0 8px 5px;
+    }
+    .trending-inner-box ul.tending-list li {
+        margin-right: 60px;
+        font-size: 18px;
+    }
+    .trending-inner-box h2,
+    .breaking-news-inner h2 {
+        font-size: 30px;
+    }
+    .marquee-text marquee {
+        font-size: 18px;
+    }
+    .section-sub-heading {
+        font-size: 35px;
+        padding-left: 30px;
+    }
+    .section-sub-heading .red-sanremo-img {
+        height: 45px;
+    }
+    .section-sub-heading:before {
+        top: 18px;
+    }
+    .right-link {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .nav-tabs.speciale-tabs .nav-item {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .speciale-slider-heading {
+        padding-left: 30px;
+    }
+    .link1-large-slider .slide .slide-caption h2 {
+        font-size: 28px;
+        max-width: 860px;
+    }
+    .ascolti-tv-section .ascolti-sidebar-section {
+        margin-top: 62px;
+    }
+    .news-content-part .news-category-info,
+    .related-news-content .related-news-category,
+    .trending-inner-content .trending-category,
+    .foto-slide-inner .foto-slide-flip-content .category-info,
+    .foto-slide-inner .foto-slide-content .category-info {
+        font-size: 15px;
+        padding: 7px 12px;
+    }
+    .large-news-box .news-content-part .home-news-heading {
+        font-size: 30px;
+        height: 78px;
+    }
+    .news-content-part .home-news-heading,
+    .related-news-content h2 {
+        font-size: 25px;
+        height: 65px;
+    }
+    .news-content-part .news-date-info,
+    .related-news-content .release-date-info,
+    .news-content-part .news-text-info,
+    .news-content-part .news-text-info p {
+        font-size: 18px;
+    }
+    .trending-large-inner .trending-inner-content h2 {
+        font-size: 28px;
+        height: 68px;
+    }
+    ul.trending-detail-info {
+        margin-top: 10px;
+    }
+    .trending-large-inner ul.trending-detail-info li {
+        font-size: 16px;
+    }
+    ul.trending-detail-info li img {
+        padding-right: 10px;
+    }
+    .trending-inner-content h2 {
+        font-size: 20px;
+    }
+    .recensioni-inner-content h2 {
+        font-size: 25px;
+    }
+    .recensioni-inner-content p {
+        font-size: 18px;
+        height: 71px;
+        letter-spacing: -0.6px;
+    }
+    .trending-right-part h6 {
+        margin-right: 35px;
+    }
+    .foto-slide-inner {
+        width: 280px;
+        height: 380px;
+    }
+    .foto-slide-inner .foto-slide-content h2 {
+        font-size: 25px;
+        height: 90px;
+    }
+    .foto-slide-inner .foto-slide-flip-content h2 {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .foto-slide-inner .foto-slide-flip-content p {
+        font-size: 14px;
+    }
+    .fiction-content-inner .fiction-content-info,
+    .fiction-content-inner .fiction-content-info p,
+    .pay-block-outer .pay-block-content,
+    .pay-block-outer .pay-block-content p {
+        font-size: 18px;
+    }
+    .fiction-content-inner .fiction-content-image,
+    .pay-block-outer .pay-block-image {
+        width: 150px;
+        height: 150px;
+        -ms-flex: 0 0 150px;
+        flex: 0 0 150px;
+        margin-right: 20px;
+    }
+    .serie-tv-large-section .large-slide-inner h2 {
+        font-size: 28px;
+        height: 101px;
+    }
+    .serie-tv-large-section .large-slide-inner .person-name {
+        font-size: 20px;
+    }
+    .serie-small-slide-inner .serie-small-slide-content h2 {
+        font-size: 16px;
+        height: 39px;
+    }
+    .video-new-heading .section-sub-heading img {
+        width: auto;
+        height: 32px;
+    }
+    .video-main-slider .slide.video-slide .video-slide-frame {
+        max-width: 960px;
+        height: 550px;
+    }
+    .video-small-slider .video-small-slide-inner {
+        width: 190px;
+    }
+    .video-small-slider .video-small-slide-inner span.play-icon {
+        top: 88px;
+        left: 15px;
+    }
+    .video-small-slider .video-small-slide-inner h2 {
+        padding: 0 15px 0 50px;
+    }
+    .pagelle-slide-inner {
+        width: 525px;
+        height: 580px;
+    }
+    .pagelle-slide-inner .pagelle-rating-box h2 {
+        font-size: 40px;
+    }
+    .pagelle-slide-inner .pagelle-rating-box h2 span {
+        font-size: 60px;
+    }
+    .pagelle-slide-inner .pagelle-special-info {
+        width: 300px;
+        height: 140px;
+    }
+    .pagelle-slide-inner .pagelle-special-info h2 {
+        font-size: 40px;
+    }
+    .pagelle-slide-inner .pagelle-text-area h4 {
+        font-size: 25px;
+    }
+    .quiz-main-box {
+        width: 690px;
+        height: 380px;
+    }
+    .quiz-main-box .quiz-content-inner {
+        width: 450px;
+        left: 120px;
+    }
+    .quiz-main-box .quiz-content-inner h2 {
+        font-size: 20px;
+    }
+    .quiz-main-box .quiz-content-inner span.quiz-author {
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .guida-content-wrapper .guida-content-inner {
+        width: 255px;
+        height: 265px;
+    }
+    .guida-top-small-box {
+        height: auto;
+        width: 65px;
+        padding: 7px 0;
+    }
+    .guida-top-small-box .guida-small-img {
+        height: 18px;
+        width: auto;
+    }
+    .guida-content-wrapper .guida-content-info h2 {
+        font-size: 18px;
+        height: 44px;
+    }
+    .guida-content-wrapper .guida-content-info h6 {
+        font-size: 18px;
+    }
+    ul.footer-menu li {
+        font-size: 20px;
+    }
+    .footer-logo-line li.dm-footer-logo .footer-dm-img {
+        width: auto;
+        height: 45px;
+    }
+    .footer-logo-line li img {
+        width: auto;
+        height: 29px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 990px;
+    }
+    header.top-bar span.top-logo .dm-top-logo {
+        height: 70px;
+    }
+    .banner-inner-text h1 {
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    .top-hero-banner {
+        height: 580px;
+    }
+    .main-nav .navbar ul.navbar-nav li a {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+    .main-nav .navbar form button.search-btn {
+        padding: 6px 0 6px 5px;
+    }
+    .navbar-brand .dm-menu-logo {
+        height: 30px;
+    }
+    .main-nav .navbar form button.search-btn:before {
+        font-size: 16px;
+    }
+    .trending-inner-box ul.tending-list li {
+        margin-right: 50px;
+        font-size: 16px;
+    }
+    .trending-inner-box h2,
+    .breaking-news-inner h2 {
+        font-size: 25px;
+    }
+    .marquee-text marquee {
+        font-size: 16px;
+    }
+    .right-link {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .nav-tabs.speciale-tabs .nav-item {
+        font-size: 16px;
+    }
+    .fiction-tab-menu ul.fiction-tabs li ul.sub-nav-menu li {
+        font-size: 16px;
+    }
+    .trending-right-part h6 {
+        font-size: 20px;
+    }
+    .section-sub-heading {
+        font-size: 30px;
+    }
+    .section-sub-heading:before {
+        top: 14px;
+    }
+    .video-new-heading .section-sub-heading img {
+        height: 28px;
+    }
+    .speciale-slider-heading h2 {
+        font-size: 22px;
+    }
+    .speciale-slider-heading h2 img.rai-1-img {
+        height: 40px;
+    }
+    .link1-large-slider .slide .slide-caption h2 {
+        font-size: 25px;
+        max-width: 700px;
+    }
+    .large-news-box .news-content-part .home-news-heading {
+        font-size: 25px;
+        height: 65px;
+    }
+    .news-content-part .home-news-heading,
+    .related-news-content h2 {
+        font-size: 22px;
+        height: 58px;
+    }
+    .trending-left-box {
+        padding-right: 15px;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 100%;
+    }
+    .trending-right-box {
+        padding-left: 15px;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 100%;
+    }
+    .trending-large-inner .trending-inner-content h2 {
+        font-size: 25px;
+        height: 60px;
+    }
+    .trending-large-inner ul.trending-detail-info li {
+        font-size: 14px;
+    }
+    .trending-inner-content h2 {
+        font-size: 18px;
+    }
+    ul.trending-detail-info li {
+        font-size: 14px;
+    }
+    .recensioni-inner-content h2 {
+        font-size: 22px;
+    }
+    .news-content-part .news-date-info,
+    .related-news-content .release-date-info,
+    .news-content-part .news-text-info,
+    .news-content-part .news-text-info p {
+        font-size: 16px;
+    }
+    .recensioni-inner-content p {
+        font-size: 16px;
+        height: 63px;
+    }
+    .foto-slide-inner .foto-slide-content h2 {
+        font-size: 22px;
+        height: 80px;
+    }
+    .foto-slide-inner .foto-slide-flip-content h2 {
+        font-size: 22px;
+    }
+    .fiction-tab-content {
+        margin-top: 40px;
+    }
+    .fiction-content-inner .fiction-content-info,
+    .fiction-content-inner .fiction-content-info p,
+    .pay-block-outer .pay-block-content,
+    .pay-block-outer .pay-block-content p {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .serie-tv-large-section .large-slide-inner h2 {
+        font-size: 25px;
+        height: 90px;
+    }
+    .serie-tv-large-section .large-slide-inner .person-name {
+        font-size: 18px;
+    }
+    .video-main-slider .slide.video-slide .video-slide-frame {
+        max-width: 760px;
+        height: 450px;
+    }
+    .video-new-wrapper {
+        background-position: bottom -400px left;
+    }
+    .pagelle-slide-inner {
+        width: 450px;
+        height: 500px;
+    }
+    .pagelle-slide-inner .pagelle-special-info {
+        width: 260px;
+        height: 110px;
+    }
+    .pagelle-slide-inner .pagelle-special-info h2 {
+        font-size: 35px;
+    }
+    .pagelle-slide-inner .pagelle-text-area h4 {
+        font-size: 22px;
+    }
+    .quiz-main-box {
+        width: 600px;
+        height: 320px;
+    }
+    .quiz-main-box .quiz-content-inner {
+        width: 430px;
+        left: 85px;
+    }
+    .guida-content-wrapper .guida-content-inner {
+        width: 217px;
+        height: 222px;
+    }
+    .guida-content-wrapper .guida-content-info h2 {
+        font-size: 16px;
+        height: 39px;
+    }
+    .guida-content-wrapper .guida-content-info h6 {
+        font-size: 16px;
+    }
+    .footer-address-box .footer-address-left p,
+    .footer-address-box .footer-address-right p {
+        font-size: 18px;
+    }
+    ul.footer-menu li {
+        font-size: 18px;
+    }
+    .footer-logo-line li.dm-footer-logo .footer-dm-img {
+        height: 35px;
+    }
+    .footer-logo-line li img {
+        height: 22px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        max-width: 760px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 570px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 100%;
+    }
 }

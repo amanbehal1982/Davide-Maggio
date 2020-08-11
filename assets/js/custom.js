@@ -51,6 +51,13 @@ $('.foto-slider').slick({
             settings: {
                 slidesToShow: 4
             }
+        },
+        {
+            breakpoint: 1200,
+            settings: {
+                centerMode: true,
+                slidesToShow: 3
+            }
         }
     ]
 });
@@ -59,7 +66,7 @@ $('.foto-slider').slick({
 $('.pagelle-slider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     prevArrow: $('.pagelle-prev'),
     nextArrow: $('.pagelle-next')
@@ -125,6 +132,12 @@ $('.video-small-slider').slick({
             settings: {
                 slidesToShow: 5
             }
+        },
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4
+            }
         }
     ]
 });
@@ -151,7 +164,13 @@ $('.link1-nav1').slick({
     asNavFor: '.link1-for1',
     centerMode: true,
     arrows: false,
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [{
+        breakpoint: 1440,
+        settings: {
+            slidesToShow: 3
+        }
+    }]
 });
 
 $('.link2-for2').slick({
@@ -170,7 +189,13 @@ $('.link2-nav2').slick({
     asNavFor: '.link2-for2',
     centerMode: true,
     arrows: false,
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [{
+        breakpoint: 1440,
+        settings: {
+            slidesToShow: 3
+        }
+    }]
 });
 
 $('.link3-for3').slick({
@@ -189,7 +214,13 @@ $('.link3-nav3').slick({
     asNavFor: '.link3-for3',
     centerMode: true,
     arrows: false,
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [{
+        breakpoint: 1440,
+        settings: {
+            slidesToShow: 3
+        }
+    }]
 });
 
 $('.link4-for4').slick({
@@ -208,5 +239,11 @@ $('.link4-nav4').slick({
     asNavFor: '.link4-for4',
     centerMode: true,
     arrows: false,
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [{
+        breakpoint: 1440,
+        settings: {
+            slidesToShow: 3
+        }
+    }]
 });
