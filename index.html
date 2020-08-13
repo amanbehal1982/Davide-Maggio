@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="row align-items-center">
-                        <div class="col-lg-3">
+                        <div class="col-4 col-md-3 display-none-mobile">
                             <ul class="top-social-list">
                                 <li>
                                     <a href="javascript:void(0)"><img class="fb-top-icon" src="assets/images/top-f-icon.png" alt="Facebook"></a>
@@ -36,12 +36,12 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-6 top-bar-logo">
+                        <div class="col-12 col-md-6 top-bar-logo">
                             <span class="top-logo">
                                 <a href="index.html"><img class="dm-top-logo" src="assets/images/dm-logo01.png" alt="Davide Maggio"></a>
                             </span>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-4 col-md-3 display-none-mobile">
                             <ul class="top-link-list">
                                 <li>
                                     <a href="javascript:void(0)"><img class="nf-top-icon" src="assets/images/top-b-icon.png" alt="Notification Icon"></a>
@@ -56,7 +56,7 @@
                                     <a href="javascript:void(0)"><img class="an-top-icon" src="assets/images/top-a-icon.png" alt="Android Icon"></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img class="ios-top-icon" src="assets/images/top-ios-icon.png" alt="iOS Icon"></a>
+                                    <a href="javascript:void(0)"><img class="ios-top-icon" src="assets/images/top-apple-icon.png" alt="iOS Icon"></a>
                                 </li>
                             </ul>
                         </div>
@@ -80,12 +80,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <nav class="navbar navbar-expand-lg">
+                        <nav class="navbar">
+                            <div id="blank-div"></div>
                             <a class="navbar-brand" href="index.html"><img class="dm-menu-logo" src="assets/images/dm-logo02.png" alt="Davide Maggio"></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu">
-                              <span class="navbar-toggler-icon"></span>
+                            <button class="nav-bar-button" type="button" id="main-menu-button">
+                              <span class="toggler-icon toggle-icon-top"></span>
+                              <span class="toggler-icon toggle-icon-center"></span>
+                              <span class="toggler-icon toggle-icon-bottom"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="main-menu">
+                            <div class="navbar-manu-outer" id="main-menu">
+                                <div class="mobile-nav-logo d-block d-lg-none">
+                                    <a href="index.html"><img class="mobile-logo" src="assets/images/dm-logo02.png" alt="Davide Maggio"></a>
+                                </div>
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
                                         <a class="nav-link" href="javascript:void(0)">BOOM!</a>
@@ -109,7 +115,7 @@
                                         <a class="nav-link" href="javascript:void(0)">GF</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="javascript:void(0)">SHOP</a>
+                                        <a class="nav-link" href="javascript:void(0)"><img class="shop-menu-icon" src="assets/images/shop-menu-logo.png" alt=""></a>
                                     </li>
                                 </ul>
                                 <form class="form-inline">
@@ -127,12 +133,15 @@
             <div class="row">
                 <div class="col-12">
                     <div class="trending-inner-box">
-                        <h2>Trending Now:</h2>
-                        <ul class="tending-list">
-                            <li><a href="javascript:void(0)">DAYDREAMER</a></li>
-                            <li><a href="javascript:void(0)">TONIGHT's TV</a></li>
-                            <li><a href="javascript:void(0)">SANREMO GIOVANI</a></li>
-                        </ul>
+                        <h2>Ora in tendenza</h2>
+                        <div class="trending-list-box">
+                            <ul class="tending-list">
+                                <li><a href="javascript:void(0)">Daydreamer</a></li>
+                                <li><a href="javascript:void(0)">Tonight's Tv</a></li>
+                                <li><a href="javascript:void(0)">Sanremo Glovani </a></li>
+                                <li><a href="javascript:void(0)">Topic 4</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,7 +178,123 @@
                                     </span>
                                 </div>
                                 <div class="ascolti-inner-section">
-                                    <img src="assets/images/ascolti-section-image.jpeg" alt="">
+                                    <div class="ascolti-inner-box">
+                                        <div class="ascolti-caption-box">
+                                            <h2>Listen to TV | Tuesday 14 July 2020. Flat calm: The Resident starts at 10%, All Together Now 11.4%</h2>
+                                        </div>
+                                        <div class="ascolti-content-box">
+                                            <ul class="ascolti-list">
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon" src="assets/images/ascolti-small-img01.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>Techetechetè</h4>
+                                                            <h6>3.449.000</h6>
+                                                            <h3>17.2%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon" src="assets/images/ascolti-small-img02.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>Tg2 Post</h4>
+                                                            <h6>951.000</h6>
+                                                            <h3>4.8%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon" src="assets/images/ascolti-small-img03.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>Geo – Vacanze Italiane</h4>
+                                                            <h6>586.000</h6>
+                                                            <h3>3.1%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon" src="assets/images/ascolti-small-img04.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>Stasera Italia</h4>
+                                                            <h6>881.000</h6>
+                                                            <h3>4.7%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon" src="assets/images/ascolti-small-img05.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>Paperissima Sprint</h4>
+                                                            <h6>3.449.000</h6>
+                                                            <h3>13.8%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon" src="assets/images/ascolti-small-img06.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>CSI</h4>
+                                                            <h6>855.000</h6>
+                                                            <h3>4.5%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon" src="assets/images/ascolti-small-img07.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>In Onda</h4>
+                                                            <h6>891.000</h6>
+                                                            <h3>4.6%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon" src="assets/images/ascolti-small-img08.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>Ristoranti</h4>
+                                                            <h6>375.000</h6>
+                                                            <h3>1.9%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="ascolti-img-section">
+                                                            <img class="ascolti-small-icon ascolti-small-icon09" src="assets/images/ascolti-small-img09.png" alt="">
+                                                        </span>
+                                                        <div class="ascolti-content-section">
+                                                            <h4>Little Big Italy</h4>
+                                                            <h6>270.000</h6>
+                                                            <h3>1.4%</h3>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="ascolti-right-part">
@@ -195,20 +320,22 @@
                             <div class="col-12">
                                 <div class="speciale-heading">
                                     <h2 class="section-sub-heading">SPECIALE <img class="red-sanremo-img" src="assets/images/red-sanremo-img.png" alt=""></h2>
-                                    <ul class="nav nav-tabs speciale-tabs" id="specialeTab" role="tablist">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" id="link1-tab" data-toggle="tab" href="#link1" role="tab" aria-controls="link1" aria-selected="true">Link1</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="link2-tab" data-toggle="tab" href="#link2" role="tab" aria-controls="link2" aria-selected="false">Link2</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="link3-tab" data-toggle="tab" href="#link3" role="tab" aria-controls="link3" aria-selected="false">Link3</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="link4-tab" data-toggle="tab" href="#link4" role="tab" aria-controls="link4" aria-selected="false">Link4</a>
-                                        </li>
-                                    </ul>
+                                    <div class="tab-outer-box">
+                                        <ul class="nav nav-tabs speciale-tabs" id="specialeTab" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="link1-tab" data-toggle="tab" href="#link1" role="tab" aria-controls="link1" aria-selected="true">Link1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="link2-tab" data-toggle="tab" href="#link2" role="tab" aria-controls="link2" aria-selected="false">Link2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="link3-tab" data-toggle="tab" href="#link3" role="tab" aria-controls="link3" aria-selected="false">Link3</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="link4-tab" data-toggle="tab" href="#link4" role="tab" aria-controls="link4" aria-selected="false">Link4</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="speciale-slider-heading">
                                     <h2>in collaborazione con <img class="rai-1-img" src="assets/images/rai-1-img.png" alt=""></h2>
@@ -619,7 +746,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="latest-news-heading">
-                                    <h2 class="section-sub-heading">LATEST NEWS</h2>
+                                    <h2 class="section-sub-heading">ULTIME NOTIZIE</h2>
                                 </div>
                                 <div class="latest-news-content">
                                     <div class="row">
@@ -660,7 +787,7 @@
                     <div class="section-add"><img src="assets/images/section-add-img02.png" alt="add"></div>
                     <div class="related-news-block">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-md-4">
                                 <div class="related-news-inner">
                                     <a href="javascript:void(0)">
                                         <div class="related-news-image">
@@ -675,7 +802,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-md-4">
                                 <div class="related-news-inner">
                                     <a href="javascript:void(0)">
                                         <div class="related-news-image">
@@ -690,7 +817,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-md-4">
                                 <div class="related-news-inner">
                                     <a href="javascript:void(0)">
                                         <div class="related-news-image">
@@ -722,17 +849,19 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="reality-tv-heading">
-                                    <h2 class="section-sub-heading">REALITY TV</h2>
+                                    <h2 class="section-sub-heading">REALITY SHOW</h2>
                                     <div class="trending-right-part">
                                         <h6>Trending now <img class="trending-now" src="assets/images/trending-now-icon.png" alt=""></h6>
-                                        <ul class="nav nav-tabs speciale-tabs" id="realityTab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="realityLink1-tab" data-toggle="tab" href="#reality-link1" role="tab" aria-controls="realityLink1" aria-selected="true">GF Vip</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="realityLink2-tab" data-toggle="tab" href="#reality-link2" role="tab" aria-controls="realityLink2" aria-selected="false">Temptation Island</a>
-                                            </li>
-                                        </ul>
+                                        <div class="tab-outer-box">
+                                            <ul class="nav nav-tabs speciale-tabs" id="realityTab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="realityLink1-tab" data-toggle="tab" href="#reality-link1" role="tab" aria-controls="realityLink1" aria-selected="true">GF Vip</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="realityLink2-tab" data-toggle="tab" href="#reality-link2" role="tab" aria-controls="realityLink2" aria-selected="false">Temptation Island</a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="">
@@ -893,7 +1022,7 @@
                                 </div>
                                 <div class="four-image-block">
                                     <div class="row">
-                                        <div class="col-lg-3">
+                                        <div class="col-12 col-sm-6 col-lg-3">
                                             <div class="recensioni-inner-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="img-border-radius recensioni-img" src="assets/images/recensioni-image01.jpeg" alt="">
@@ -901,11 +1030,18 @@
                                                     <div class="recensioni-inner-content">
                                                         <h2>The Politician 2</h2>
                                                         <p>L’ascesa politica di Payton Hobart (Ben Platt) continua su Netflix.</p>
+                                                        <div class="recensioni-star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                        </div>
                                                     </div>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-12 col-sm-6 col-lg-3">
                                             <div class="recensioni-inner-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="img-border-radius recensioni-img" src="assets/images/recensioni-image02.jpeg" alt="">
@@ -913,11 +1049,18 @@
                                                     <div class="recensioni-inner-content">
                                                         <h2>Tu si que vales</h2>
                                                         <p>La replica di Tu si que vales in onda venerdì per arginare Top Dieci</p>
+                                                        <div class="recensioni-star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                        </div>
                                                     </div>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-12 col-sm-6 col-lg-3">
                                             <div class="recensioni-inner-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="img-border-radius recensioni-img" src="assets/images/recensioni-image03.jpeg" alt="">
@@ -925,11 +1068,18 @@
                                                     <div class="recensioni-inner-content">
                                                         <h2>Nicola Porro</h2>
                                                         <p>Rete4, Mediaset prolunga l’informazione: Porro in versione extra-large, Gentili stakanovista</p>
+                                                        <div class="recensioni-star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                        </div>
                                                     </div>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-12 col-sm-6 col-lg-3">
                                             <div class="recensioni-inner-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="img-border-radius recensioni-img" src="assets/images/recensioni-image04.jpeg" alt="">
@@ -937,6 +1087,13 @@
                                                     <div class="recensioni-inner-content">
                                                         <h2>Il figlio della luna</h2>
                                                         <p>Rai 1 punta ancora su Lunetta Savino contro Amici Speciali: arriva «Il figlio della luna»</p>
+                                                        <div class="recensioni-star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                        </div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -964,14 +1121,16 @@
                                     <h2 class="section-sub-heading">TALENT SHOW</h2>
                                     <div class="trending-right-part">
                                         <h6>Trending now <img class="trending-now" src="assets/images/trending-now-icon.png" alt=""></h6>
-                                        <ul class="nav nav-tabs speciale-tabs" id="talentshowTab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="talentLink1-tab" data-toggle="tab" href="#talentLink1" role="tab" aria-controls="talentLink1" aria-selected="true">Amici di Maria De Filippi</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="talentLink2-tab" data-toggle="tab" href="#talentLink2" role="tab" aria-controls="talentLink2" aria-selected="false">Ballando con le Stelle</a>
-                                            </li>
-                                        </ul>
+                                        <div class="tab-outer-box">
+                                            <ul class="nav nav-tabs speciale-tabs" id="talentshowTab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="talentLink1-tab" data-toggle="tab" href="#talentLink1" role="tab" aria-controls="talentLink1" aria-selected="true">Amici di Maria De Filippi</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="talentLink2-tab" data-toggle="tab" href="#talentLink2" role="tab" aria-controls="talentLink2" aria-selected="false">Ballando con le Stelle</a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="">
@@ -1241,8 +1400,11 @@
                 <div class="col-12">
                     <div class="section-bar-top"></div>
                     <div class="fiction-tab-section section-margin">
-                        <div class="row">
-                            <div class="col-lg-9">
+                        <div class="row different-direction-row">
+                            <div class="col-12 col-lg-3">
+                                <div class="section-side-add"><img src="assets/images/section-side-add-img01.jpeg" alt=""></div>
+                            </div>
+                            <div class="col-12 col-lg-9">
                                 <div class="fiction-tab-menu">
                                     <ul class="nav nav-tabs speciale-tabs fiction-tabs" id="fictionTab" role="tablist">
                                         <li class="nav-item">
@@ -1269,7 +1431,7 @@
                                         <div class="tab-pane fade show active" id="fictionLink1" role="tabpanel" aria-labelledby="fictionLink1-tab">
                                             <div class="fiction-content-block">
                                                 <div class="row">
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image01.jpeg" alt=""></div>
@@ -1279,7 +1441,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image02.jpeg" alt=""></div>
@@ -1289,7 +1451,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image03.jpeg" alt=""></div>
@@ -1299,7 +1461,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image04.jpeg" alt=""></div>
@@ -1309,7 +1471,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image05.jpeg" alt=""></div>
@@ -1319,7 +1481,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image06.jpeg" alt=""></div>
@@ -1335,7 +1497,7 @@
                                         <div class="tab-pane fade" id="fictionLink2" role="tabpanel" aria-labelledby="fictionLink2-tab">
                                             <div class="fiction-content-block">
                                                 <div class="row">
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image03.jpeg" alt=""></div>
@@ -1345,7 +1507,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image04.jpeg" alt=""></div>
@@ -1355,7 +1517,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image05.jpeg" alt=""></div>
@@ -1365,7 +1527,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image01.jpeg" alt=""></div>
@@ -1375,7 +1537,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image02.jpeg" alt=""></div>
@@ -1385,7 +1547,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image06.jpeg" alt=""></div>
@@ -1401,7 +1563,7 @@
                                         <div class="tab-pane fade" id="fictionLink3" role="tabpanel" aria-labelledby="fictionLink3-tab">
                                             <div class="fiction-content-block">
                                                 <div class="row">
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image04.jpeg" alt=""></div>
@@ -1411,7 +1573,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image05.jpeg" alt=""></div>
@@ -1421,7 +1583,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image06.jpeg" alt=""></div>
@@ -1431,7 +1593,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image01.jpeg" alt=""></div>
@@ -1441,7 +1603,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image02.jpeg" alt=""></div>
@@ -1451,7 +1613,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-sm-6 fiction-tab-inner-block">
                                                         <div class="fiction-content-inner">
                                                             <a href="javascript:void(0)">
                                                                 <div class="fiction-content-image"><img class="img-border-radius fiction-img" src="assets/images/fiction-image03.jpeg" alt=""></div>
@@ -1466,9 +1628,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="section-side-add"><img src="assets/images/section-side-add-img01.jpeg" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -1803,7 +1962,7 @@
                                 </div>
                                 <div class="four-image-block">
                                     <div class="row">
-                                        <div class="col-lg-3">
+                                        <div class="col-12 col-sm-6 col-lg-3">
                                             <div class="recensioni-inner-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="img-border-radius recensioni-img" src="assets/images/trending-image01.jpeg" alt="">
@@ -1815,7 +1974,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-12 col-sm-6 col-lg-3">
                                             <div class="recensioni-inner-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="img-border-radius recensioni-img" src="assets/images/trending-image02.jpeg" alt="">
@@ -1827,7 +1986,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-12 col-sm-6 col-lg-3">
                                             <div class="recensioni-inner-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="img-border-radius recensioni-img" src="assets/images/trending-image03.jpeg" alt="">
@@ -1839,7 +1998,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-12 col-sm-6 col-lg-3">
                                             <div class="recensioni-inner-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="img-border-radius recensioni-img" src="assets/images/trending-image04.jpeg" alt="">
@@ -1869,7 +2028,7 @@
                     <div class="section-bar-top"></div>
                     <div class="three-block-section section-margin">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-12 col-lg-4 three-block-column">
                                 <h2 class="section-sub-heading">PAY TV</h2>
                                 <div class="pay-block-wrapper">
                                     <div class="pay-block-outer">
@@ -1898,8 +2057,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
-                                <h2 class="section-sub-heading">STREAMING TV</h2>
+                            <div class="col-12 col-lg-4 three-block-column">
+                                <h2 class="section-sub-heading">STREAMING</h2>
                                 <div class="pay-block-wrapper">
                                     <div class="pay-block-outer">
                                         <a href="javascript:void(0)">
@@ -1927,8 +2086,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
-                                <h2 class="section-sub-heading">ESTERA TV</h2>
+                            <div class="col-12 col-lg-4 three-block-column">
+                                <h2 class="section-sub-heading">TV ESTERA</h2>
                                 <div class="pay-block-wrapper">
                                     <div class="pay-block-outer">
                                         <a href="javascript:void(0)">
@@ -1977,7 +2136,10 @@
                                 </div>
                                 <div class="quiz-content-section">
                                     <div class="row quiz-content-row">
-                                        <div class="col-lg-8">
+                                        <div class="col-12 col-lg-4">
+                                            <div class="quiz-section-add"><img src="assets/images/section-add-img04.jpeg" alt=""></div>
+                                        </div>
+                                        <div class="col-12 col-lg-8 quiz-box-outer">
                                             <div class="quiz-main-box">
                                                 <a href="javascript:void(0)">
                                                     <img class="quiz-part-image" src="assets/images/quiz-main-image.jpeg" alt="">
@@ -1988,9 +2150,6 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="quiz-section-add"><img src="assets/images/section-add-img04.jpeg" alt=""></div>
                                         </div>
                                     </div>
                                 </div>
@@ -2014,9 +2173,11 @@
                                 <div class="guida-tv-heading">
                                     <h2 class="section-sub-heading">GUIDA TV</h2>
                                     <div class="recommend-box">
+                                        <h2><img src="assets/images/dm-recommend-img.png" alt=""> recommends</h2>
                                         <div class="recommend-box-inner">
-                                            <h2><img src="assets/images/dm-recommend-img.png" alt=""> Recommends</h2>
-                                            <h6><span class="recommend-number"><img src="assets/images/recommend-number.png" alt=""></span> Due cuori e una</h6>
+                                            <a href="javascript:void(0)">
+                                                <h6><span class="recommend-number"><img src="assets/images/recommend-number.png" alt=""></span> <span class="recommend-text">Due cuori e una provetta</span></h6>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -2179,18 +2340,18 @@
                             <a href="javascript:void(0)"><img class="an-icon-footer" src="assets/images/footer-a-logo.png" alt="Android Icon"></a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)"><img class="ios-icon-footer" src="assets/images/footer-ios-logo.png" alt="iOS Icon"></a>
+                            <a href="javascript:void(0)"><img class="ios-icon-footer" src="assets/images/footer-apple-logo.png" alt="iOS Icon"></a>
                         </li>
                     </ul>
                     <ul class="row footer-menu">
                         <li>
-                            <a href="javascript:void(0)">Cookie Policy</a>
+                            <a href="javascript:void(0)">Davide Maggio, chi è</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Redazione</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">La Redazione</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">Pubblicità</a>
@@ -2200,15 +2361,25 @@
                         </li>
                     </ul>
                     <div class="footer-address-box">
-                        <div class="row">
-                            <div class="col-lg-6 footer-address-left">
+                        <div class="row justify-content">
+                            <div class="col-12 col-sm-6 col-md-5 col-lg-5 footer-address-left">
                                 <p>
                                     DavideMaggio.it è una testata<br> registrata al Tribunale di<br> Milano n.29/17<br> Licenza SIAE 4776/I/4441<br> N° ROC 26997
                                 </p>
                             </div>
-                            <div class="col-lg-6 footer-address-right">
+                            <div class="col-md-2 col-lg-2 footer-media-center d-none d-md-block">
+                                <p>
+                                    <a href="javascript:void(0)"><img src="assets/images/footer-media-ai-logo.png" alt=""></a>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-5 col-lg-5 footer-address-right">
                                 <p>
                                     &copy; 2006-2020 mediaMai srl<br> viale Mazzini 114/A - 00195 Roma ||<br> Capitale Sociale: Euro 200.000 i.v.<br> C.F. P.Iva e R.I.: 13614301003<br> REA RM-1461309
+                                </p>
+                            </div>
+                            <div class="col-12 footer-media-center d-block d-md-none">
+                                <p>
+                                    <a href="javascript:void(0)"><img src="assets/images/footer-media-ai-logo.png" alt=""></a>
                                 </p>
                             </div>
                         </div>
