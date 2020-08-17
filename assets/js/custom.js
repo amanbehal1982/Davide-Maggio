@@ -121,6 +121,31 @@ $('.boom-slider').slick({
 });
 
 
+$('.articles-image-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    fade: true,
+    asNavFor: '.articles-content-slider',
+    prevArrow: $('.article-nav-prev'),
+    nextArrow: $('.article-nav-next')
+});
+$('.articles-content-slider').slick({
+    slidesToScroll: 1,
+    asNavFor: '.articles-image-slider',
+    arrows: false,
+    variableWidth: true,
+    focusOnSelect: true,
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+            centerMode: true,
+        }
+    }]
+});
+
+
 $('.serie-tv-large-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
