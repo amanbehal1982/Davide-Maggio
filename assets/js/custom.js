@@ -24,6 +24,7 @@ $('#blank-div').click(function() {
     $('#blank-div').removeClass('display-blank-div');
 })
 
+
 $('.foto-slider').slick({
     slidesToScroll: 1,
     autoplay: true,
@@ -39,7 +40,7 @@ $('.foto-slider').slick({
 $('.pagelle-l-slider01').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     fade: true,
     arrows: false,
@@ -69,10 +70,11 @@ $('.pagelle-s-slider01').slick({
 
 });
 
+
 $('.pagelle-l-slider02').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     fade: true,
     arrows: false,
@@ -102,6 +104,7 @@ $('.pagelle-s-slider02').slick({
 
 });
 
+
 $('.boom-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -112,10 +115,39 @@ $('.boom-slider').slick({
 });
 
 
+$('.ultme-notizie-slider').slick({
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    variableWidth: true,
+    prevArrow: $('.ultme-notizie-prev'),
+    nextArrow: $('.ultme-notizie-next')
+});
+
+
+$('.more-boom-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    fade: true,
+    asNavFor: '.more-boom-content-slider'
+});
+$('.more-boom-content-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.more-boom-slider',
+    focusOnSelect: true,
+    prevArrow: $('.more-boom-prev'),
+    nextArrow: $('.more-boom-next')
+});
+
+
 $('.articles-image-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     fade: true,
     asNavFor: '.articles-content-slider',
