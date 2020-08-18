@@ -2502,6 +2502,7 @@ ul.footer-menu li a:hover:after {
     width: 73%;
     position: relative;
     padding: 15px;
+    cursor: pointer;
 }
 
 .pagelle-small-slide-inner .pagelle-small-content-part h4 {

@@ -11,15 +11,6 @@ function stickyMenu() {
 }
 
 
-var slideVideo = document.getElementById("slide-video");
-
-function playPause() {
-    if (slideVideo.paused)
-        slideVideo.play();
-    else
-        slideVideo.pause();
-}
-
 $('#main-menu-button').click(function() {
     $('#main-menu').toggleClass('open-side-menu');
     $('html,body').toggleClass('fixed-body');
