@@ -90,7 +90,7 @@
                             <a class="navbar-brand" href="index.html"><img class="dm-menu-logo" src="assets/images/dm-logo02.png" alt="Davide Maggio"></a>
                             <div class="right-mobile-bar">
                                 <form class="form-inline d-block d-lg-none">
-                                    <button class="btn search-btn" type="submit">Search</button>
+                                    <button id="mobile-search-btn" class="btn search-btn" type="submit">Search</button>
                                 </form>
                                 <button class="nav-bar-button" type="button" id="main-menu-button">
                                     <span class="toggler-icon toggle-icon-top"></span>
@@ -163,10 +163,25 @@
                                     </li>
                                 </ul>
                                 <form class="form-inline d-none d-lg-block">
-                                    <button class="btn search-btn" type="submit">Search</button>
+                                    <button id="search-btn" class="btn search-btn" type="submit">Search</button>
                                 </form>
                             </div>
                         </nav>
+                    </div>
+                </div>
+            </div>
+            <div id="search-bar" class="search-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <form action="" class="main-search">
+                                <label for="">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                </label>
+                                <button type="submit" class="search-btn">Submit</button>
+                                <button id="close-search-btn" type="button" class="close-search-btn">Close</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
