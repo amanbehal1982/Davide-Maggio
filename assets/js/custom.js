@@ -25,6 +25,22 @@ $('#blank-div').click(function() {
 })
 
 
+$('#search-btn').click(function(event) {
+    event.preventDefault();
+    $('#search-bar').slideToggle();
+})
+
+$('#mobile-search-btn').click(function(event) {
+    event.preventDefault();
+    $('#search-bar').slideToggle();
+})
+
+$('#close-search-btn').click(function(event) {
+    event.preventDefault();
+    $('#search-bar').slideUp();
+})
+
+
 $('.foto-slider').slick({
     slidesToScroll: 1,
     autoplay: true,
